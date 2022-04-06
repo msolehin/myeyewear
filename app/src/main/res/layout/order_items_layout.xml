@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
+    app:cardCornerRadius="9dp"
+    app:cardElevation="5dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp">
+
+        <TextView
+            android:id="@+id/cart_product_name2"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderDate"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="0dp"
+            android:text="Order Status"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/orderTotal"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderPayment"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="23dp"
+            android:layout_toEndOf="@+id/cart_product_name2"
+            android:text="RM10"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cart_product_name6"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_product_name4"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="0dp"
+            android:text="Total"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/orderPayment"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_product_name2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="23dp"
+            android:layout_toEndOf="@+id/cart_product_name2"
+            android:text="Cash on Delivery"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/orderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderDate"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="23dp"
+            android:layout_toEndOf="@+id/cart_product_name2"
+            android:text="Pending"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cart_product_name4"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_product_name2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="0dp"
+            android:text="Payment"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/orderDate"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="210dp"
+            android:layout_marginBottom="23dp"
+            android:text="25/2/2021"
+            android:textAlignment="textStart"
+            android:textColor="#353535"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/orderId"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginBottom="23dp"
+            android:text="7ys0hg3dr"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

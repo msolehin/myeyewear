@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "92680568656",
+    "project_id": "myeyewear",
+    "storage_bucket": "myeyewear.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92680568656:android:9edddaa6affaffbae23655",
+        "android_client_info": {
+          "package_name": "com.example.myeyewear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92680568656-6268p9rmi90b5olb2u7bs460q2b78qp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myeyewear",
+            "certificate_hash": "ba63c3cd317bc6c5d59dad4eff8c2c08465f9a10"
+          }
+        },
+        {
+          "client_id": "92680568656-fbsd1jc3j36v3p602gfp9ganteenj5ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8rCVFtd-EVCMy-AMJKtKgbYyTsFcmw_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92680568656-fbsd1jc3j36v3p602gfp9ganteenj5ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

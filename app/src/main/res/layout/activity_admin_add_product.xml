@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddProduct">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Select Image"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productImage" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Add Product"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/productCategory"
+        android:layout_width="258dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edit_text_bg"
+        android:ems="10"
+        android:hint="  Product Category"
+        android:inputType="textEmailAddress"
+
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="#FFFFFF"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productName" />
+
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="258dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/edit_text_bg"
+        android:ems="10"
+        android:hint="  Product Name"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="#FFFFFF"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/productPrice"
+        android:layout_width="258dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edit_text_bg"
+        android:ems="10"
+        android:hint="  Product Price"
+        android:inputType="textEmailAddress"
+
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="#FFFFFF"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productCategory" />
+
+    <EditText
+        android:id="@+id/productDetail"
+        android:layout_width="258dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edit_text_bg"
+        android:ems="10"
+        android:hint=" Product Details"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="#FFFFFF"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productPrice" />
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="248dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button"
+        android:text="ADD PRODUCT"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="139dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:srcCompat="@drawable/insertimage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
